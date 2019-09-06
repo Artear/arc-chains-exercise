@@ -1,0 +1,42 @@
+/* stylelint-disable */
+body,
+figure,
+p {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  display: inline-block;
+}
+
+figure {
+  display: inherit;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}

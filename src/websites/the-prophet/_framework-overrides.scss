@@ -1,0 +1,49 @@
+/* Breakpoints: */
+$breakpoint: (
+  sm: 799px,
+  md: 800px,
+  lg: 1400px
+) !default;
+
+/* Fonts */
+$font: (
+  primary: "Playfair Display",
+  secondary: "Source Sans Pro",
+  tertiary: "Georgia"
+);
+
+/* Colors: */
+$color: (
+  white: #fff,
+  black: #000,
+  /* Gradients*/ fade:
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 80%),
+  /* Primary site colors*/ gray-light: rgb(216, 216, 215),
+  gray: #a09e9e,
+  gray-dark: rgb(24, 24, 24),
+  accent-primary: rgb(201, 160, 26),
+  accent-secondary: rgb(107, 176, 212)
+) !default;
+
+/* Grid system: */
+
+$container-width: (
+  default: 100%,
+  sm: 100%,
+  md: 95%,
+  lg: 90%
+);
+
+$container-gutter: (
+  sm: 0,
+  md: 75px,
+  lg: 150px,
+  default: 60px
+);
+
+$column-gutter: (
+  default: 5px,
+  sm: 46px,
+  lg: 30px,
+  md: 18px
+);

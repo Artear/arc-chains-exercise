@@ -1,0 +1,131 @@
+/**** GENERAL /****/
+
+body {
+  font-size: 12pt;
+}
+
+.btn {
+  background: #aaa;
+  border: none;
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px 20px;
+  margin: 0px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn.btn-success {
+  background: #82d697;
+  color: #fff;
+}
+
+.btn.btn-cancel {
+  background: #dd586c;
+  color: #fff;
+}
+
+.editor-container {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+/**** COMPONENTS ****/
+
+/* Toolbar */
+
+.toolbar {
+  border-bottom: 1px solid #ddd;
+  color: #666;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+.toolbar .row {
+  display: inline-block;
+  padding: 5px 0px;
+}
+
+.toolbar span {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.toolbar span:hover {
+  color: #999;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Editor */
+
+.editor {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px 0px;
+  min-height: 100px;
+}
+
+.editor .arc-blockquote {
+  color: #333;
+  font-style: italic;
+}
+
+.editor .arc-codeblock {
+  background: #eee;
+  padding: 5px 10px;
+  margin: 0px;
+}
+
+.editor .arc-link {
+  color: #46acc2;
+}
+
+/* Hyperlink Input */
+
+#add-hyperlink-container {
+  position: relative;
+}
+
+.hyperlink-input {
+  background: #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 22px;
+  width: 320px;
+  z-index: 99;
+}
+
+.hyperlink-input input {
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none;
+  padding: 4px 7px;
+}
+
+.hyperlink-input button.btn {
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+.hyperlink-input button:last-child {
+  margin-right: 0px;
+}
+
+/* Actions Bar */
+
+.actions-bar {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.actions-bar button:first-child {
+  margin-left: 0px;
+}

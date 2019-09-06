@@ -1,0 +1,60 @@
+/* stylelint-disable */
+/* Colors */
+
+.color {
+  &_inherit {
+    color: inherit;
+  }
+
+  &_white {
+    color: white;
+  }
+
+  &_gray {
+    color: gray;
+  }
+
+  &_black {
+    color: black;
+  }
+
+  &_red {
+    color: red;
+  }
+
+  &_blue {
+    color: blue;
+  }
+}
+
+/* Background */
+
+.background {
+  &_gray {
+    background-color: gray;
+  }
+
+  &_white {
+    background-color: white;
+  }
+
+  &_blue {
+    background-color: blue;
+  }
+
+  &_black {
+    background-color: black;
+  }
+
+  &_red {
+    background-color: red;
+  }
+
+  &_transparent {
+    background-color: transparent;
+  }
+
+  &_inherit {
+    background-color: inherit;
+  }
+}

@@ -1,0 +1,93 @@
+/* stylelint-disable */
+body {
+  background: #f7f7f7;
+}
+.navbar {
+  // height: 50px;
+  padding-bottom: 8px;
+  display: inline-block;
+  .main-navigation {
+    text-align: center;
+  }
+  ul li {
+    float: left;
+    padding-right: 25px;
+    list-style: none;
+  }
+  .button {
+    display: inline-block;
+    margin: 6px 12px;
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 5px;
+    &.offer {
+      background-color: #1955a5;
+      border: 1px solid #3d73d5;
+      color: #fff;
+    }
+  }
+  .sections_button {
+    float: left;
+  }
+  .right_buttons {
+    float: right;
+  }
+  .date,
+  .edition {
+    font-size: 12px;
+    font-family: arial;
+  }
+  .edition {
+    float: right;
+  }
+  .logo_container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    img {
+      transform: scale(0.4);
+    }
+    .tagline {
+      color: black;
+      width: 100%;
+      float: left;
+      font-style: italic;
+      display: inline-block;
+      margin-top: -40px;
+      margin-bottom: 10px;
+    }
+  }
+  ul#sections-menu-wide {
+    margin-left: 6%;
+    display: inline-block;
+    margin-top: 1.3%;
+  }
+  ul.utility_links {
+    .label {
+      color: #b03436;
+    }
+    li {
+      padding-right: 29px;
+      font-size: 17px;
+    }
+    float: left;
+    color: black;
+    margin: -12px 5% 0 5%;
+    height: 28px;
+    border-bottom: 1px solid lightgray;
+    padding-inline-start: 0px;
+    overflow-y: hidden;
+    line-height: 1.8;
+    padding-bottom: 0.4rem;
+  }
+  .date_region {
+    float: left;
+    margin: -30px 0 20px 5%;
+    color: black;
+    width: 90%;
+    display: inline-block;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+  }
+}

@@ -1,0 +1,52 @@
+/* Framework overrides go in here */
+
+/* Breakpoints: */
+$breakpoint: (
+  sm: 599px,
+  md: 600px,
+  lg: 1200px
+) !default;
+
+/* Fonts */
+$font: (
+  primary: "Merriweather",
+  secondary: "Montserrat",
+  tertiary: "Helvetica"
+);
+
+/* Colors: */
+$color: (
+  white: #fff,
+  black: #000,
+  blue-primary: #1f0172;
+  /* Gradients*/ fade:
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 80%),
+  /* Primary site colors*/ gray-light: #c4beb6,
+  gray: #767676,
+  gray-dark: #4f4c49,
+  accent-primary: #f87666,
+  accent-secondary: #79b791
+) !default;
+
+/* Grid system: */
+
+$container-width: (
+  default: 100%,
+  sm: 100%,
+  md: 100%,
+  lg: 70%
+);
+
+$container-gutter: (
+  sm: 0,
+  md: 100px,
+  lg: 200px,
+  default: 50px
+);
+
+$column-gutter: (
+  default: 5px,
+  sm: 46px,
+  lg: 30px,
+  md: 18px
+);

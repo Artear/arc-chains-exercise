@@ -1,0 +1,164 @@
+/* stylelint-disable */
+/* Spacers */
+
+.margin {
+  &_1 {
+    margin: 1%;
+  }
+  &_2 {
+    margin: 2%;
+  }
+
+  &_top {
+    &_1 {
+      margin-top: 1%;
+    }
+
+    &_2 {
+      margin-top: 2%;
+    }
+
+    &_3 {
+      margin-top: 3%;
+    }
+
+    &_10 {
+      margin-top: 10%;
+    }
+  }
+
+  &_right {
+    &_1 {
+      margin-right: 1%;
+    }
+
+    &_2 {
+      margin-right: 2%;
+    }
+
+    &_3 {
+      margin-right: 3%;
+    }
+
+    &_10 {
+      margin-right: 10%;
+    }
+  }
+
+  &_left {
+    &_1 {
+      margin-left: 1%;
+    }
+
+    &_2 {
+      margin-left: 2%;
+    }
+
+    &_3 {
+      margin-left: 3%;
+    }
+
+    &_10 {
+      margin-left: 10%;
+    }
+  }
+
+  &_bottom {
+    &_1 {
+      margin-bottom: 1%;
+    }
+
+    &_2 {
+      margin-bottom: 2%;
+    }
+
+    &_3 {
+      margin-bottom: 3%;
+    }
+
+    &_10 {
+      margin-bottom: 10%;
+    }
+  }
+}
+
+.padding {
+  &_1 {
+    padding: 1%;
+  }
+  &_2 {
+    padding: 2%;
+  }
+
+  &_top {
+    &_1 {
+      padding-top: 1%;
+    }
+
+    &_2 {
+      padding-top: 2%;
+    }
+
+    &_3 {
+      padding-top: 3%;
+    }
+
+    &_10 {
+      padding-top: 10%;
+    }
+  }
+
+  &_right {
+    &_1 {
+      padding-right: 1%;
+    }
+
+    &_2 {
+      padding-right: 2%;
+    }
+
+    &_3 {
+      padding-right: 3%;
+    }
+
+    &_10 {
+      padding-right: 10%;
+    }
+  }
+
+  &_left {
+    &_1 {
+      padding-left: 1%;
+    }
+
+    &_2 {
+      padding-left: 2%;
+    }
+
+    &_3 {
+      padding-left: 3%;
+    }
+
+    &_10 {
+      padding-left: 10%;
+    }
+  }
+
+  &_bottom {
+    &_1 {
+      padding-bottom: 1%;
+    }
+
+    &_2 {
+      padding-bottom: 2%;
+    }
+
+    &_3 {
+      padding-bottom: 3%;
+    }
+
+    &_10 {
+      padding-bottom: 10%;
+    }
+  }
+}

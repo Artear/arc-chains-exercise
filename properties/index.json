@@ -1,0 +1,16 @@
+{
+  "dfp_id": "TODO: replace with org DFP ID",
+  "siteName": "The Prophet",
+  "siteDomainURL": "https://org.website",
+  "twitterURL": "https://twitter.com/orgUsername",
+  "facebookURL": "https://www.facebook.com/orgUsername",
+  "instagramURL": "https://www.instagram.com/orgUsername",
+  "sites": ["the-gazette", "the-prophet", "arc-subs-on-fusion"],
+  "excludedFeatures": {
+    "The Gazette": ["storycard", "header"],
+    "The Prophet": ["feed"]
+  },
+  "apiOrigin": "REPLACE_THIS_LINE_WITH_THE_PROVIDED_API_ORIGIN",
+  "defaultBackgroundColor": "#2c5971",
+  "defaultTextColor": "white"
+}

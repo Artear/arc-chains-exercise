@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "the-gazette",
+    "display_name": "The Gazette",
+    "is_default_website": false
+  },
+  {
+    "_id": "the-prophet",
+    "display_name": "The Prophet",
+    "is_default_website": false
+  },
+    {
+    "_id": "arc-subs-on-fusion",
+    "display_name": "Arc-Subs on Fusion",
+    "is_default_website": true
+  }
+]

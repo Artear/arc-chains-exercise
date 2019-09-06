@@ -1,0 +1,49 @@
+/* Variable Definitions */
+@import "./extend/index";
+
+/* Imports and extends base stylesheet */
+@import "./../../base/base";
+
+.btn {
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  height: 36px;
+  width: 100%;
+  line-height: 1px;
+  margin: 10px 1px;
+  font-size: 16px;
+}
+.btn--secondary {
+  background-color: rgb(59, 107, 155);
+}
+.container {
+  padding: 20px;
+}
+.container-secondary {
+  display: flex;
+  flex-direction: row;
+}
+.container-tertiary {
+  flex-grow: 1;
+  padding: 1px;
+}
+.container-quaternary {
+  border: 1px solid rgb(173, 173, 173);
+  height: 80px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  border: 1px solid rgb(114, 112, 112);
+  height: 36px;
+  margin: 10px 1px;
+  font-size: 16px;
+}
+.image-reCapcha {
+  height: 100%;
+}

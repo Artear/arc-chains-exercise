@@ -1,0 +1,30 @@
+/* Breakpoints: */
+$breakpoint: (
+  mobile: 799px,
+  tablet: 800px,
+  desktop: 1200px,
+  widescreen: 1400px
+) !default;
+
+/* stylelint-disable */
+$border-size: (
+  default: 15px,
+  medium: 200px,
+  thick: 105px,
+  thickest: 102px,
+) !default;
+
+$container-gutter: (
+  sm: 0,
+  md: 56px,
+  lg: 100px,
+  default: 50px
+) !default;
+
+$font: (
+  primary: "Output Black",
+  secondary: "Output Regular",
+  tertiary: "Output Light"
+) !default;
+
+/* stylelint-enable */

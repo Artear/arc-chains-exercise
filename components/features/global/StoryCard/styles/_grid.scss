@@ -1,0 +1,266 @@
+/* stylelint-disable */
+@import "./../../../../../src/base/framework-overrides";
+@import "./../../../../../src/base/mixins";
+
+.grid {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  vertical-align: top;
+  overflow-x: hidden;
+
+  > .col {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    flex-basis: 100%;
+    max-width: 100%;
+    vertical-align: top;
+
+    &.mobile-2 {
+      flex-basis: 16.6%;
+      max-width: 16.6%;
+    }
+
+    &.mobile-2_4 {
+      flex-basis: 20%;
+      max-width: 20%;
+    }
+
+    &.mobile-3 {
+      flex-basis: 25%;
+      max-width: 25%;
+    }
+
+    &.mobile-4 {
+      flex-basis: 33.33%;
+      max-width: 33.33%;
+    }
+
+    &.mobile-5 {
+      flex-basis: 41.67%;
+      max-width: 41.67%;
+    }
+
+    &.mobile-6 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+
+    &.mobile-7 {
+      flex-basis: 58.33%;
+      max-width: 58.33%;
+    }
+
+    &.mobile-8 {
+      flex-basis: 66.67%;
+      max-width: 66.67%;
+    }
+
+    &.mobile-9 {
+      flex-basis: 75%;
+      max-width: 75%;
+    }
+
+    &.mobile-10 {
+      flex-basis: 83.33%;
+      max-width: 83.33%;
+    }
+
+    &.mobile-11 {
+      flex-basis: 91.66%;
+      max-width: 91.66%;
+    }
+
+    &.mobile-12 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    @include breakpoint(tablet) {
+      &.tablet-2 {
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+      }
+
+      &.tablet-2_4 {
+        flex-basis: 20%;
+        max-width: 20%;
+      }
+
+      &.tablet-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+      }
+
+      &.tablet-4 {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+      }
+
+      &.tablet-5 {
+        flex-basis: 41.67%;
+        max-width: 41.67%;
+      }
+
+      &.tablet-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+      }
+
+      &.tablet-7 {
+        flex-basis: 58.33%;
+        max-width: 58.33%;
+      }
+
+      &.tablet-8 {
+        flex-basis: 66.67%;
+        max-width: 66.67%;
+      }
+
+      &.tablet-9 {
+        flex-basis: 75%;
+        max-width: 75%;
+      }
+
+      &.tablet-10 {
+        flex-basis: 83.33%;
+        max-width: 83.33%;
+      }
+
+      &.tablet-11 {
+        flex-basis: 91.66%;
+        max-width: 91.66%;
+      }
+
+      &.tablet-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+
+    @include breakpoint(desktop) {
+      &.desktop-2 {
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+      }
+
+      &.desktop-2_4 {
+        flex-basis: 20%;
+        max-width: 20%;
+      }
+
+      &.desktop-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+      }
+
+      &.desktop-4 {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+      }
+
+      &.desktop-5 {
+        flex-basis: 41.67%;
+        max-width: 41.67%;
+      }
+
+      &.desktop-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+      }
+
+      &.desktop-7 {
+        flex-basis: 58.33%;
+        max-width: 58.33%;
+      }
+
+      &.desktop-8 {
+        flex-basis: 66.67%;
+        max-width: 66.67%;
+      }
+
+      &.desktop-9 {
+        flex-basis: 75%;
+        max-width: 75%;
+      }
+
+      &.desktop-10 {
+        flex-basis: 83.33%;
+        max-width: 83.33%;
+      }
+
+      &.desktop-11 {
+        flex-basis: 91.66%;
+        max-width: 91.66%;
+      }
+
+      &.desktop-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+
+    @include breakpoint(widescreen) {
+      &.widescreen-2 {
+        flex-basis: 16.6%;
+        max-width: 16.6%;
+      }
+
+      &.widescreen-2_4 {
+        flex-basis: 20%;
+        max-width: 20%;
+      }
+
+      &.widescreen-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+      }
+
+      &.widescreen-4 {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+      }
+
+      &.widescreen-5 {
+        flex-basis: 41.67%;
+        max-width: 41.67%;
+      }
+
+      &.widescreen-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+      }
+
+      &.widescreen-7 {
+        flex-basis: 58.33%;
+        max-width: 58.33%;
+      }
+
+      &.widescreen-8 {
+        flex-basis: 66.67%;
+        max-width: 66.67%;
+      }
+
+      &.widescreen-9 {
+        flex-basis: 75%;
+        max-width: 75%;
+      }
+
+      &.widescreen-10 {
+        flex-basis: 83.33%;
+        max-width: 83.33%;
+      }
+
+      &.widescreen-11 {
+        flex-basis: 91.66%;
+        max-width: 91.66%;
+      }
+
+      &.widescreen-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

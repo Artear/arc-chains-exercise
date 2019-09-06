@@ -1,0 +1,71 @@
+/* Float */
+
+.float {
+  &_left {
+    float: left;
+    clear: left;
+  }
+
+  &_right {
+    float: right;
+    clear: right;
+  }
+}
+
+/* Position */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+
+  &_center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &_left {
+    position: absolute;
+    left: 0;
+  }
+
+  &_right {
+    position: absolute;
+    right: 0;
+  }
+
+  &_bottom {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+.align {
+
+  &_left {
+    margin-right: auto;
+  }
+
+  &_right {
+    margin-left: auto;
+  }
+
+  &_items {
+
+    &_center {
+      align-items: center;
+    }
+    &_start {
+      align-items: start;
+    }
+  }
+}

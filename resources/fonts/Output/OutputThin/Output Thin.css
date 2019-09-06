@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"OutputSans Thin Regular";
+    src:url("Output Thin.woff2") format("woff2"),url("Output Thin.woff") format("woff"),url("Output Thin.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

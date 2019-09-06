@@ -1,0 +1,89 @@
+/* stylelint-disable */
+/* Display */
+
+.display {
+  &_block {
+    display: block;
+  }
+
+  &_contents {
+    display: contents;
+  }
+
+  &_flex {
+    display: flex;
+
+      &.column {
+        flex-direction: column;
+      }
+
+      &.row {
+        flex-direction: row;
+      }
+  }
+
+  &_grid {
+    display: grid;
+  }
+
+  &_inherit {
+    display: inherit;
+  }
+
+  &_inline {
+    display: inline;
+  }
+
+  &_inline_block {
+    display: inline-block;
+  }
+  &_none {
+    display: none;
+  }
+}
+
+.opacity {
+  &_0 {
+    opacity: 0;
+    &_25 {
+      opacity: 0.25;
+    }
+    &_50 {
+      opacity: 0.5;
+    }
+    &_75 {
+      opacity: 0.75;
+    }
+  }
+
+  &_1 {
+    opacity: 1;
+  }
+}
+
+.foreground {
+  z-index: 1009;
+}
+
+.hidden {
+  display: none;
+}
+
+.overflow {
+
+  &_hidden {
+    overflow: hidden;
+  }
+
+  &_x_hidden {
+    overflow-x: hidden;
+  }
+
+  &_y_scroll {
+    overflow-y: scroll;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

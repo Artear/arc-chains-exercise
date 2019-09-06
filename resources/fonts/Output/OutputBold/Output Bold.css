@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"OutputSans Bold";
+    src:url("Output Bold.woff2") format("woff2"),url("Output Bold.woff") format("woff"),url("Output Bold.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

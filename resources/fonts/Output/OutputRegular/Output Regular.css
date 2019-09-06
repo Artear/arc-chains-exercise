@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"OutputSans Regular";
+    src:url("Output Regular.woff2") format("woff2"),url("Output Regular.woff") format("woff"),url("Output Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

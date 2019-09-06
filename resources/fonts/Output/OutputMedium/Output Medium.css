@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"OutputSans Medium Regular";
+    src:url("Output Medium.woff2") format("woff2"),url("Output Medium.woff") format("woff"),url("Output Medium.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

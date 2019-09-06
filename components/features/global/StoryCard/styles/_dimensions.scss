@@ -1,0 +1,57 @@
+/* stylelint-disable */
+/** Dimensions **/
+
+.height {
+  &_full {
+    height: 100%;
+  }
+
+  &_half {
+    height: 50%;
+  }
+
+  &_qtr,
+  &_quarter {
+    height: 25%;
+  }
+
+  &_3rd,
+  &_third {
+    height: 33.3%;
+  }
+
+  &_auto {
+    height: auto;
+  }
+}
+
+.width {
+  &_full {
+    width: 100%;
+  }
+
+  &_half {
+    width: 50%;
+  }
+
+  &_qtr,
+  &_quarter {
+    width: 25%;
+  }
+
+  &_3rd,
+  &_third {
+    width: 33.3%;
+  }
+
+  &_auto {
+    width: auto;
+  }
+}
+
+.fullscreen {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

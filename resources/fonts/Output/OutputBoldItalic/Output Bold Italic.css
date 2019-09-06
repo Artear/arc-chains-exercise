@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"OutputSans Bold Italic";
+    src:url("Output Bold Italic.woff2") format("woff2"),url("Output Bold Italic.woff") format("woff"),url("Output Bold Italic.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
